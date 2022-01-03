@@ -1,0 +1,114 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+    background-color: #000;
+}
+*{
+    box-sizing: border-box;
+};
+h1,h2,h3,p,figure,ol,ul{
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    font-weight: normal;
+}
+section{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+a{
+    text-decoration: none;
+    color: rgb(115, 250, 25);
+}
+/* theme */
+
+:root{
+    --primary--color:rgb(113, 54, 119);
+    --secondary--color:rgb(3, 3, 3);
+    --font-color-primary:#000;
+    --font-color-secondary:rgb(115, 255, 0);
+  }
+  
+  header {
+    padding: 1em;
+    background-image: url(../asset/matrix.gif);
+    overflow: hidden;
+  }
+  header h1{
+    color: var(--font-color-secondary);
+    text-align: center;
+  }
+main {
+  background-image: url(../asset/matrix.gif);
+}
+header>a>img {
+  width: 8rem;
+  height: 8rem;
+  float: left;
+}
+section > div > img{
+    width: 10rem;
+    height: 10rem; 
+}
+section > div{
+  padding-left: 20rem;
+  padding-right: 20rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+body > main > nav > ol{
+  display: inline-block;
+}
+body > main > nav > ol > li{
+  display: inline;
+  padding: 2rem;
+}
+nav {
+  background-color: var(--secondary--color);
+}
+section > h2 {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  background-color: var(--secondary--color);
+  color:var(--font-color-secondary);
+  padding: 0.7rem;
+  line-height: 3.5rem;
+}
+figure{
+  width: 100px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+figure>img{
+  display: block;
+  width: 10rem;
+  height: 10rem;
+  margin-left: 2rem;
+}
+section > p {
+  border: rgb(112, 175, 10) solid 3px;
+  color: var(--font-color-secondary);
+  background-color: #000;
+  margin-top: 1em;
+  padding: 2em;
+}
+footer {
+  background-color: #000;
+  margin-top: 10rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+footer {
+  color: #000;
+  font-weight: bold;
+}
+footer > p > a {
+  color: var(--font-color-secondary);
+}
