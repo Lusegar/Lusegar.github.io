@@ -1,0 +1,106 @@
+header > h1, footer p{
+    text-align: center;
+    line-height: 6.5rem;
+    color: #222;
+}
+main{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+:root{
+    --colors-primary: #080808;
+    --colors-secondary: #42414d;
+    --colors-text-primary: #fff;
+    --color-text-title: #f1f3f5;
+}
+body{
+    background-image: url(../favicon/black_smoke.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-color: var(--colors-primary);*/
+    color: var(--colors-text-primary);
+}
+header h1, footer p{
+    color: var(--colors-text-primary);
+}
+section h2, 
+:is(p){
+    color: var(--colors-text-primary);
+    
+}
+section h2{
+    background-color: var(--colors-primary);
+    padding: 1rem;
+    border-radius: .8rem;
+    color: var(--color-text-title);
+}
+section{
+    background: var(--colors-secondary);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .8rem;
+}
+section .liste{
+    color: #fff;
+    list-style: none;;
+}
+section .liste img{
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+section .liste li:last-child{
+    width : 10rem;
+}
+p{
+    color: #fff;
+    list-style: none;
+}
+footer p{
+    color: var(--color-text-title);
+}
+
+#picture-wrapper
+{
+    width:90%;
+    margin:0 auto;
+    margin-top:30px;
+    text-align:center;
+}
+
+#picture-wrapper nav ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#picture-wrapper nav ul li
+{   display:inline-block;
+}
+
+.picture
+{
+    color:#FFFFFF;
+    text-align:center;
+    text-decoration:none;
+
+    height:270px;
+    width:200px;
+    border:7px solid #080808;
+    border-radius:5px;
+
+    display:table-cell;
+    vertical-align:middle;
+
+    margin-right:35px;
+    margin-bottom:2px;
+}
+.button{
+    position: relative;
+    top: 17%; left: 45%;
+    background-color: #000000;
+    border-color: #080808;
+  }
